@@ -3,7 +3,6 @@ package com.salgun.todotest;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,7 +26,7 @@ public class MyFragment extends Fragment{
 //				ARG_SECTION_NUMBER)));
 //		return textView;
 		
-		View myView = inflater.inflate(R.layout.activity_main, container);
+		View myView = inflater.inflate(R.layout.activity_main, container, false);
 		
 		
 		return myView;
